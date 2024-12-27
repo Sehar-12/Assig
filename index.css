@@ -1,0 +1,264 @@
+* {
+    margin-top: 0;
+}
+body{
+    background: linear-gradient(to right, #FDBA74, #FFF4E6);
+}
+#logo{
+    margin-top: 0px;
+    margin-left:8px ;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif ;
+    color:#ec8807;
+    font-size: 55px;
+}
+#hea{
+    margin-top: 10px;
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap:134px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+a
+{
+    margin-top: 20px;;
+}
+a:active{
+    background-color: #f68a17;
+    border:none;
+    padding:5px 12px 12px 10px;
+    border-radius: 12px;
+    height:12px;
+}
+a:hover{
+    background-color: #f9ecdf;
+    border:none;
+    padding:5px 12px 12px 10px;
+    border-radius: 12px;
+    height:12px;
+}
+#pro{
+    background-color: #f68a17;
+    border:none;
+    padding:5px 12px 15px 12px;
+    border-radius: 12px;
+    height:12px; 
+}
+.seab
+{
+display: flex;
+align-items: center;
+height:40px;
+width:240px;
+background-color: rgb(240,240,240);
+border:1px solid rgb(192,192,192);
+border-radius: 13px;
+border-left: 1px solid rgb(192,192,192);
+margin-left: 40px;
+margin-right: 12px;
+margin-top: 10px;
+}
+.seabi
+{
+height:25px;
+
+}
+.tooltip{
+    font-size: medium;
+}
+#navitems
+{
+    font-size: 22px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   gap:50px;
+}
+#innum{
+    font-size: 22px;
+}
+#cart
+{
+    height: 42px;
+    margin-left: 22px;
+}
+#log{
+    margin-left: 120px;
+    font-weight: bold;
+    font-size: 28px;
+    margin-top:15px;
+    color:#eb8c27;
+}
+#log:active
+{
+    background-color: #f0ece7;
+    border:none;
+    padding:10px 12px 24px 12px;
+    border-radius: 12px;
+    height:12px; 
+}
+#sofas{
+    height: 600px;
+    border-radius: 50px;
+    margin-left: 20px;
+}
+#sofascon{
+    display: flex;
+    flex-wrap: wrap;
+    gap:400px;
+    font-size: 23px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#about{
+    font-size: 40px;
+    font-weight: lighter;
+}
+#title{
+    font-size: 65px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#Price{
+    margin-top: -10px;
+}
+#Product{
+    margin-top:-22px;
+}
+#but{
+    margin:50px 20px 23px 20px;
+    padding: 12px 18px 12px 18px;
+    background: linear-gradient(to top, #ef912c, #f8e6d0);
+    border:none;
+    border-radius: 50px;
+    font-size: 20px;
+}
+/* Responsive Design for Small Devices */
+@media (max-width: 768px) {
+    #hea {
+        flex-direction: column;
+        align-items: center;
+        gap: 15px;
+        margin-top: 10px;
+    }
+    #logo {
+        font-size: 40px;
+        margin-left: 0;
+    }
+    #navitems {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 20px;
+        font-size: 18px;
+    }
+    a {
+        font-size: 16px;
+        padding: 8px 10px;
+        margin-top: 15px;
+    }
+    .seab {
+        width: 200px;
+        margin-left: 0;
+        margin-right: 0;
+        height: 35px;
+        padding: 5px 10px;
+    }
+    .seabi {
+        height: 20px;
+    }
+    #innum {
+        font-size: 18px;
+    }
+    #cart {
+        height: 30px;
+        margin-left: 0;
+    }
+    #log {
+        font-size: 22px;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    #sofascon {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        padding: 15px;
+    }
+    #sofas {
+        height: 300px;
+        width: 90%;
+        margin-left: 0;
+        border-radius: 20px;
+    }
+    #title {
+        font-size: 40px;
+        text-align: center;
+    }
+    #about {
+        font-size: 24px;
+        text-align: center;
+    }
+    #Price {
+        font-size: 18px;
+        margin-top: 0;
+    }
+    #Product {
+        font-size: 16px;
+        margin-top: 0;
+    }
+    #but {
+        font-size: 16px;
+        padding: 10px 15px;
+        margin: 20px 10px;
+        width: 80%;
+    }
+}
+
+@media (max-width: 480px) {
+    #hea {
+        gap: 10px;
+        padding: 10px;
+    }
+    #logo {
+        font-size: 35px;
+    }
+    #navitems {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    a {
+        font-size: 14px;
+        padding: 6px 8px;
+        margin-top: 10px;
+    }
+    .seab {
+        width: 150px;
+        height: 30px;
+        padding: 5px;
+    }
+    .seabi {
+        height: 18px;
+    }
+    #innum {
+        font-size: 16px;
+    }
+    #cart {
+        height: 25px;
+    }
+    #log {
+        font-size: 20px;
+    }
+    #sofas {
+        height: 200px;
+        width: 95%;
+    }
+    #title {
+        font-size: 28px;
+    }
+    #about {
+        font-size: 20px;
+    }
+    #but {
+        font-size: 14px;
+        padding: 8px 12px;
+    }
+}
